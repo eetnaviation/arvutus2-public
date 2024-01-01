@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>ARVUTUS</title>
+</head>
+<body>
+    <input type="button" onClick="liitmine()" id="liitmine" value="Liitmine"></input>
+    <input type="button" onClick="lahutamine()" id="liitmine" value="Lahutamine"></input>
+    <input type="button" onClick="logout()" id="logout" value="Logout"></input>
+    <!--<input type="button" onClick="korrutamine()" id="liitmine" value="Korrutamine"></input>
+    <input type="button" onClick="jagamine()" id="liitmine" value="Jagamine"></input>-->
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+function liitmine() {
+    window.location = '/liitmine';
+}
+function lahutamine() {
+    window.location = '/lahutamine';
+}
+function korrutamine() {
+    window.location = '/korrutamine';
+}
+function jagamine() {
+    window.location = '/jagamine';
+}
+function logout() {
+    window.location = '/';
+}
+</script>
