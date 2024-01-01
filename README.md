@@ -2,5 +2,7 @@
 Public repository for arvutus2
 
 # INSTALLATION
-1. Install dependencies: Run npm install in the directory
-2. Run it via node main.js
+## INSTALL DEPENDENCIES
+Run ```npm install``` in the directory of the repostiory
+## RUN ARVUTUS2
+Run ```node main.js```
