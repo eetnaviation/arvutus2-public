@@ -1,5 +1,5 @@
 # arvutus2-public
-Public repository for arvutus2
+Public repository for arvutus2, a remake of miksike.ee
 
 # INSTALLATION
 ## INSTALL DEPENDENCIES
